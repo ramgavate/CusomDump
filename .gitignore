@@ -32,6 +32,15 @@ Thumbs.db
 *.tar
 *.tar.gz
 *.rar
+.*7z
 
+
+#envs
+.env.test
+.env.production
+.env.local
+.env.production
+.env.development
+.env
 # Optional: ignore json dumps (if you don't want sample data in repo)
 dump/
