@@ -1,0 +1,18 @@
+{
+  "name": "mongo-sampler-dump",
+  "version": "1.0.0",
+  "description": "Dump all collections but sample N docs per collection for import into another MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "export": "node index.js",
+    "help": "node index.js --help"
+  },
+  "dependencies": {
+    "mongodb": "^4.8.0",
+    "yargs": "^17.7.2",
+    "archiver": "^5.3.1"
+  },
+  "author": "ram",
+  "license": "MIT"
+}
