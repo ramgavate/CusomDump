@@ -1,3 +1,37 @@
- /node_modules
- /dist
-    
+# Node modules
+node_modules/
+
+# Build or output folders
+dist/
+dump/
+temp/
+logs/
+
+# Environment files
+.env
+.env.local
+.env.test
+.env.production
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE folders
+.vscode/
+.idea/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Optional: ignore json dumps (if you don't want sample data in repo)
+dump/
