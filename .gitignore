@@ -44,3 +44,5 @@ Thumbs.db
 .env
 # Optional: ignore json dumps (if you don't want sample data in repo)
 dump/
+.env
+.env
