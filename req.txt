@@ -1,0 +1,19 @@
+# Machine requirements for mongo-sampler-dump
+
+# Required command line tools
+git
+nodejs-lts
+npm
+mongodb-database-tools
+
+# Runtime npm packages installed by `npm install`
+archiver@^5.3.1
+dotenv@^17.2.3
+mongodb@^4.8.0
+yargs@^17.7.2
+
+# Notes
+# - `mongoimport` is provided by MongoDB Database Tools.
+# - Windows setup uses winget when a tool is missing.
+# - macOS setup uses Homebrew when a tool is missing.
+# - Copy `.env.example` to `.env`, update the values, then run export and import.
